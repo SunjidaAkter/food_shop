@@ -39,7 +39,8 @@ const handleAddMenu = (event: FormEvent<HTMLFormElement>) => {
   //   formData.append("image", image);
   // }
 
-  fetch("https://food-backend-ohlq.onrender.com/menu/list/", {
+  // fetch("https://food-backend-ohlq.onrender.com/menu/list/", {
+  fetch("https://food-backend-zeta.vercel.app/menu/list/", {
     method: "POST",
     body: formData,
   })

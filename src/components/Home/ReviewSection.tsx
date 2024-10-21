@@ -222,7 +222,7 @@ const ReviewSection = () => {
 
             return (
               <div key={review?.id} className="w-full">
-                <div className="lg:w-[60%] w-[90%] mx-auto bg-white group my-10 py-10 relative flex flex-col justify-center items-center">
+                <div className="lg:w-[60%] w-[95%] mx-auto bg-white group my-10 py-10 relative flex flex-col justify-center items-center">
                   <div className="group-hover:border-[#C00A27] border-[#3A3A3A] border-[5px] w-[90%] flex flex-col justify-center items-center">
                     <p className="bg-white group-hover:text-[#3A3A3A] text-[#C00A27] font-extrabold text-[60px] absolute top-0 left-0 p-3">
                       <RiDoubleQuotesL />
@@ -232,7 +232,7 @@ const ReviewSection = () => {
                     </p>
                     <div className="flex justify-between items-center flex-wrap">
                       <img
-                        className="lg:w-[35%] md:[70%] sm:w-[70%] w-[60%] mx-auto"
+                        className="lg:w-[35%] md:[70%] sm:w-[70%] w-[0%] mx-auto "
                         src={
                           matchedMenu?.image ||
                           "https://i.pinimg.com/originals/2e/ce/ce/2ececec5431d0a1b7eae4e1acac7c59f.gif"
@@ -303,13 +303,13 @@ const ReviewSection = () => {
           </p>
         </Fade>
         <Fade cascade direction="up" duration={1000} delay={200}>
-          <p className="text-center text-white font-semibold text-[20px]">
+          <p className="text-center text-white font-semibold md:text-[20px] text-[15px]">
             Odio morbi quis commodo odio aenean sed adipiscing. Neque ornare
             aenean{" "}
           </p>
         </Fade>
         <Fade cascade direction="up" duration={1000} delay={400}>
-          <p className="mb-16 text-center text-white font-semibold text-[20px] ">
+          <p className="md:mb-16 mb-6 text-center text-white font-semibold md:text-[20px] text-[15px]">
             euismod elementum nisi quis.
           </p>
         </Fade>

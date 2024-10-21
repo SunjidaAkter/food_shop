@@ -85,19 +85,19 @@ const Banner = () => {
               <div className="ml-0 lg:ml-20 text-left text-white">
                 <div className="lg:w-1/2 md:w-2/3 w-[65%] px-9  lg:px-0">
                   <Fade cascade direction="up" duration={1000}>
-                    <h1 className="mb-5 text-3xl md:text-5xl font-bold text-[#f4b618]">
+                    <h1 className="mb-5 text-2xl md:text-5xl font-bold text-[#f4b618]">
                       Welcome to Yummi
                     </h1>
                   </Fade>
                   <Fade cascade direction="up" delay={500} duration={1000}>
-                    <p className="mb-5 text-md md:text-lg">
+                    <p className="mb-5 text-sm md:text-lg">
                       Discover the finest selection of gourmet foods, curated
                       just for you. Indulge in a world of flavors and enjoy a
                       dining experience like no other.
                     </p>
                   </Fade>
                   <Fade cascade direction="up" delay={1000} duration={1000}>
-                    <button className="btn bg-[#f4b618] text-black">
+                    <button className="md:mb-0 mb-3 btn bg-[#f4b618] text-black">
                       Explore Now
                     </button>
                   </Fade>

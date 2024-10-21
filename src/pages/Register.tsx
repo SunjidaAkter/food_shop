@@ -44,7 +44,8 @@ const handleRegistration = (event: FormEvent<HTMLFormElement>) => {
       //   formData.append("image", image);
       // }
 
-      fetch("https://food-backend-ohlq.onrender.com/user_accounts/register/", {
+      fetch("https://food-backend-zeta.vercel.app/user_accounts/register/", {
+        // fetch("https://food-backend-ohlq.onrender.com/user_accounts/register/", {
         method: "POST",
         body: formData,
       })

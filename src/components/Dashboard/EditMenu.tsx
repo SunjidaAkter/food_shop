@@ -44,7 +44,8 @@ const handleEditMenu = (formEvent: FormEvent<HTMLFormElement>, id: number) => {
   formData.append("category", category);
   cuisines.forEach((cuisine) => formData.append("cuisine", cuisine.toString()));
 
-  fetch(`https://food-backend-ohlq.onrender.com/menu/list/${id}/`, {
+  // fetch(`https://food-backend-ohlq.onrender.com/menu/list/${id}/`, {
+  fetch(`https://food-backend-zeta.vercel.app/menu/list/${id}/`, {
     method: "PUT",
     body: formData,
   })

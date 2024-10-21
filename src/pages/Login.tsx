@@ -18,7 +18,8 @@ const Login: React.FC = () => {
     if (username && password) {
       try {
         const response = await fetch(
-          "https://food-backend-ohlq.onrender.com/user_accounts/login/",
+          "https://food-backend-zeta.vercel.app/user_accounts/login/",
+          // "https://food-backend-ohlq.onrender.com/user_accounts/login/",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
