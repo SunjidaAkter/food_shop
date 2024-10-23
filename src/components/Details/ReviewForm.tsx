@@ -19,7 +19,7 @@ const getValue = (id: string): string => {
 };
 
 const ReviewForm = () => {
-  const [currentValue, setCurrentValue] = useState(0);
+  const [currentValue, setCurrentValue] = useState(1);
   const [postReview, { isError, isSuccess, isLoading }] =
     usePostReviewMutation();
   console.log(isSuccess, isError);

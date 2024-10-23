@@ -302,7 +302,7 @@ const ReviewSection = () => {
             Our Clients Reviews
           </p>
         </Fade>
-        <Fade cascade direction="up" duration={1000} delay={200}>
+        {/* <Fade cascade direction="up" duration={1000} delay={200}>
           <p className="text-center text-white font-semibold md:text-[20px] text-[15px]">
             Odio morbi quis commodo odio aenean sed adipiscing. Neque ornare
             aenean{" "}
@@ -312,7 +312,7 @@ const ReviewSection = () => {
           <p className="md:mb-16 mb-6 text-center text-white font-semibold md:text-[20px] text-[15px]">
             euismod elementum nisi quis.
           </p>
-        </Fade>
+        </Fade> */}
         {categorise()}
       </div>
     </div>

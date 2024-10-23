@@ -97,8 +97,23 @@ const Footer = () => {
             Contact With Us
           </h6>
           <div className="flex space-x-6">
-            {["facebook", "twitter", "instagram"].map((platform, i) => (
-              <i key={i} className={`fa fa-${platform} text-xl`}></i>
+            {[
+              {
+                title: "facebook",
+                link: "https://www.facebook.com/yummy-tummy/",
+              },
+              {
+                title: "twitter",
+                link: "https://www.twitter.com/yummy-tummy/",
+              },
+              {
+                title: "instagram",
+                link: "https://www.instagram.com/yummy-tummy/",
+              },
+            ].map((platform, i) => (
+              <a href={platform.link} target="_blank">
+                <i key={i} className={`fa fa-${platform.title} text-xl`}></i>
+              </a>
             ))}
           </div>
         </nav>

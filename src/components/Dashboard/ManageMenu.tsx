@@ -269,7 +269,7 @@ const ManageMenu = () => {
       <div className="">
         <div className="w-[90%] mt-10 md:w-[90%] lg:w-[90%] xl:w-[90%] mx-auto rounded-md shadow-2xl flex-col justify-center items-start py-4 px-5 sm:px-10 bg-white">
           <p className="mt-6 mb-6 text-center text-[#3a3a3a] text-[24px] sm:text-[30px] font-bold">
-            Order History
+            Manage Menu
           </p>
           {categorise()}
         </div>

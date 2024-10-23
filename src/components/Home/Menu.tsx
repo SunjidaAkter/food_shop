@@ -119,13 +119,13 @@ const MenuComponent = () => {
       />
       <Fade cascade direction="up" duration={1000}>
         <p className="mt-10 mb-6 text-center text-[#3a3a3a] text-[24px] sm:text-[30px] font-bold">
-          Our Flavorful Menus
+          Discounts on Our Menus!
         </p>
       </Fade>
       <Fade cascade direction="up" duration={1000} delay={200}>
         <p className="text-center font-semibold">
-          Odio morbi quis commodo odio aenean sed adipiscing. Neque ornare
-          aenean{" "}
+          This version emphasizes the discounts, making it engaging and enticing
+          for customers.{" "}
         </p>
       </Fade>
       <Fade cascade direction="up" duration={1000} delay={400}>
