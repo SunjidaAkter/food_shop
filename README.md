@@ -1,15 +1,47 @@
 # Live Link: [YUMMY TUMMY](https://yummi-tummy.netlify.app/)
 
 
-## About This Project
-* **Yummy Tummy Food Shop** is a comprehensive platform for managing food orders and customer interactions.
-* Features robust authentication including login, registration, logout, and email verification.
-* Private dashboard route where users can view menu items and manage their orders.
-* The homepage includes sections for Header, Banner, International Cuisines, About, Menu, Gallery, Discounts, Reviews, Special Offers, Business Summary, Newsletter, Client Testimonials, and Footer.
-* Utilizes **Redux Toolkit** for efficient state management.
-* Developed using **React.js**, with routing managed through **React Router** and state management by **Redux Toolkit**.
-* Styled with **Tailwind CSS** for a clean and responsive design.
-* **Supabase** is used for storing and managing food shop data.
+## Overview
+
+This is the frontend for the **Yummy Tummy Food Shop** project, built using **React** and **Vite**. It provides the user interface for managing food orders and customer interactions, allowing customers to browse the menu, place orders, and track their deliveries.
+
+The frontend is designed to interact seamlessly with the backend API, ensuring a smooth user experience for food ordering and shop management.
+
+---
+
+<br>
+
+## Project Features
+
+### User Authentication
+
+- User roles: Customers and Admins.
+- Users can register for an account and log in.
+- Users can log out and access their profiles.
+
+### Menu Management
+
+- Customers can browse a variety of food items organized by categories, such as linch, dinner, and breakfast.
+- Each menu item includes details such as name, description, price, and availability.
+
+### Order Placement
+
+- Customers can add items to their cart and place orders directly from the menu.
+- Users can view their order summary before finalizing the purchase, ensuring accuracy in their selections.
+
+### User Dashboard
+
+- Customers have a dashboard to view their order history, track current orders, and manage their account details.
+- Admins have access to a separate dashboard to manage menu items, view orders, and handle customer inquiries.
+
+### Special Offers
+
+- The platform highlights special offers and discounts to encourage user engagement and increase sales.
+
+### Email Notifications
+
+- Send email notifications to customers upon successful order placement and updates on order status.
+
 
 ## Admin Info
 * **Username**: Sanjida_Akter
