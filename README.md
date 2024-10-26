@@ -1,4 +1,4 @@
-# Live Link: [YUMMY TUMMY](https://assignment-twelfth.web.app)
+# Live Link: [YUMMY TUMMY](https://yummi-tummy.netlify.app/)
 
 ## About this project
 * This Project is a site for a Food Shop.
