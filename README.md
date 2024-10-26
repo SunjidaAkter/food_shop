@@ -42,6 +42,10 @@ The frontend is designed to interact seamlessly with the backend API, ensuring a
 
 - Send email notifications to customers upon successful order placement and updates on order status.
 
+---
+
+<br>
+
 
 ## Admin Info
 * **Username**: Sanjida_Akter
@@ -50,6 +54,12 @@ The frontend is designed to interact seamlessly with the backend API, ensuring a
 ## Customer Info
 * **Username**: Sanjida_Akter1
 * **Password**: 1212@asas
+
+
+---
+
+<br>
+
 
 ## Technologies
 - **react-awesome-reveal**: v4.2.14
@@ -71,6 +81,12 @@ The frontend is designed to interact seamlessly with the backend API, ensuring a
 - **Vite** is used as the development and build tool for this project.
 - **React Router** is implemented for managing application routes.
 - **Tailwind CSS** is used for styling components.
+
+
+---
+
+<br>
+
 
 ### Installation Steps:
 
@@ -108,6 +124,11 @@ npm run dev
 **Finally, Access the application**
 
 The application will be available at: `http://localhost:3000`.
+
+
+---
+
+<br>
 
 
 
