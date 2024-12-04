@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Live Link: [YUMMY TUMMY](https://yummi-tummy.netlify.app/)
 
 
