@@ -125,6 +125,8 @@ const AdminProfile = () => {
                   <span className="font-semibold">User Name:</span>{" "}
                   {filteredUserAccount?.user}
                 </p>
+
+                {/* checking */}
                 <p className="text-[18px] sm:text-[20px] text-black my-2">
                   <span className="font-semibold">Full Name:</span>{" "}
                   {singleUser?.first_name} {singleUser?.last_name}
