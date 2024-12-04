@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@emotion/react": "^11.13.3",
     "@reduxjs/toolkit": "^2.2.7",
     "react": "^18.3.1",
     "react-awesome-reveal": "^4.2.14",
     "react-countup": "^6.5.3",
+=======
+    "@reduxjs/toolkit": "^2.2.7",
+    "react": "^18.3.1",
+>>>>>>> master
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.2",
     "react-icons": "^5.3.0",
@@ -22,7 +27,10 @@
     "react-router-dom": "^6.25.0",
     "react-slick": "^0.30.2",
     "react-star-ratings": "^2.3.0",
+<<<<<<< HEAD
     "react-visibility-sensor": "^5.1.1",
+=======
+>>>>>>> master
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.12.4"
   },
